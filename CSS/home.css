@@ -1,0 +1,96 @@
+/*---------------Home----------------*/
+#home{
+    background-color: #d42121;
+    padding-top: 15%;
+    text-align: center;
+    width: 100%;
+}
+.home_logo{
+    margin-bottom: 30px;
+}
+.texto_home{
+    font-size: xx-large;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+.ods_home{
+    margin-bottom: 48px;
+}
+.home_seta:hover{
+    transition:  1s;
+    width: 8%;
+}
+
+/*---------------Sobre----------------*/
+/*ODS*/
+.ods{
+    margin-left: 7%;
+    margin-right: 7%;
+    display: inline-block;
+}
+.titulo{
+    font-family: 'VT323', monospace;
+    font-size: 4.5em;
+    display: block;
+    text-align: center;
+    padding-top: 5%;
+}
+.titulo_quemSou{
+    padding-top: 0%;
+}
+.coluna{
+    display: inline-block;
+    width: 42%;
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: 3%;
+    text-align: left;
+}
+.coluna2{
+    display: inline-block;
+    width: 45%;
+}
+.coluna2_conteudo{
+    display: block; 
+    padding: 0;
+    width: 80%;   
+    float: none;
+}
+.eu{
+    margin: -3rem auto;
+    z-index: -1;
+    height: 50%;
+    width: 50%;
+    border-radius: 7%;
+}
+.dificuldade{
+    margin: 2rem auto;
+    border-radius: 7%;
+    margin-bottom: 0vw;
+}
+.problema{
+    margin: 1rem auto;
+    height: 25vw;
+    
+}
+.subtitulo{
+    font-size: 25px;
+}
+.quemSou,
+.ods_problema{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.ods2{
+    margin-top: 8%;
+}
+.video{
+    background-color: #f6ec66;
+}
+.descricao{
+    margin-left: 8vw;
+    padding-top: 0vw;
+    font-size: 12px;
+}
+
+

@@ -1,0 +1,244 @@
+/*CSS presente em todas as paginas*/
+
+/*-------------NavBar------------*/
+nav{
+	width: 100vw;
+    background-color: #d42121;
+    position: fixed;
+}
+.nav_logo{
+	height: 4.5em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 50px;
+    margin-right: 35vw;
+}
+nav ul li,
+nav ul{
+    display: inline;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/*-----------Botões------------*/
+.btn{
+	background-color: #d42121;
+	font-family: 'Poppins', sans-serif;
+	color: #f6ec66;
+	font-size: 17px;
+	border-radius: 100px;
+	transition-duration: 0.4s;
+}
+.btn_sobreNos,
+.btn:hover {
+	background-color: #f6ec66; 
+	color: #d42121;
+}
+.btn_ods,
+.btn_sobreNos:hover {
+	background-color: #d42121; 
+	color: #f6ec66;
+	border-color: #f6ec66;
+}
+
+/*---------------Links---------------*/
+a:link {
+    color:#2175d4;
+    text-decoration: none;
+}
+a:visited {
+    color: #2175d4;
+    text-decoration: none;
+}
+a:hover {
+    color: #d42121;
+    text-decoration: underline;
+}
+a:active {
+    color: #f6ec66;
+    text-decoration: underline;
+}
+
+/*-------------Footer--------------*/
+footer{
+    width: 100%;
+    height: 9vw;
+    background-color: #d42121; 
+}
+footer ul{
+    position: relative;
+    text-align: center;
+    margin-bottom: 0%;
+}
+footer ul li{
+    display: inline-block;
+}
+footer ul li img{
+    width: 70%;
+    height: 70%; 
+}
+footer p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0%;
+}
+
+/*----------Responsividade----------*/
+@media (max-width: 1300px) {
+    .coluna{
+        width: 45%;
+        margin-left: 4%;
+        margin-right: 3%;
+    }
+    .eu{
+        height: 55%;
+        width: 55%;
+    }
+}
+@media(max-width:1090px){
+    .nav_logo{
+        margin-right: 12vw;
+    }
+    .eu{
+        height: 65%;
+        width: 65%;
+    }
+    footer{
+        height: 100%;
+    }
+    footer ul{
+        padding-left: 0%;
+    }
+    footer p{
+        margin-bottom: 0%;
+    }
+}
+@media(max-width:950px){
+   .coluna2{
+       display: inline-block;
+       width: 70%;
+       margin-left: 14%;
+    }
+   .coluna{
+        margin-left: 7%;
+        margin-right: 6%;
+        width: 80%;
+    }
+   .problema{
+        margin: 0%;
+        height: 30vw;
+        text-align: center;
+        margin-left: 14%;
+    }
+    body{
+       width: 100%;
+       height: 100%;
+    }
+    .eu{
+        height: 45%;
+        width: 45%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .form{
+        width: 80%;
+    }
+}
+@media(max-width:810px){
+    nav ul,
+    .nav_logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav ul{
+        text-align: center;
+    }
+    #home{
+        padding-top: 30%;
+    }
+    .coluna2{
+        margin: 4% 15%;
+    }
+    .eu{
+        height: 50%;
+        width: 50%;
+    }
+    .titulo_olimpiadas{
+        margin-top: 20%;
+    }
+    .tituloform{
+        margin-top: 20%;
+    }
+    .conteudoform{
+        font-size: 18px;
+    }
+}
+@media(max-width:530px){
+    #btn{
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 10px;
+    }
+    nav ul{
+        padding-left: 10%;
+    }
+    #home{
+        padding-top: 40%;
+    }
+    .texto_home{
+        font-size: 120%;
+    }  
+    .dificuldade{
+        height: 20%;
+    }
+    .ods{
+        margin-left: 10%;
+    margin-right: 10%;
+    }
+    .subtitulo{
+        font-size: 15px;
+    }
+    footer li{
+        width: 20%;
+        height: 20%; 
+    }
+    .eu{
+        height: 55%;
+        width: 55%;
+    }
+    .coluna4{
+    position: initial;
+    display: contents;
+    }
+    .colunas{
+        margin: 7%;
+    }
+    .icone{
+        margin-top: 10%;
+        margin-left:-6%;
+    }
+    .titulo_olimpiadas{
+        margin-top: 28%;
+    }
+    .tituloform{
+        margin-top: 30%;
+    }
+    .conteudoform{
+        font-size: 15px;
+    }
+}
+@media(max-width:390px){
+    #btn{
+        font-size: 11px;
+    }
+    nav ul{
+        padding-left: 0px;
+    }
+    .titulo_olimpiadas{
+        margin-top: 40%;
+    }
+    .tituloform{
+        margin-top: 40%;
+    }
+}
